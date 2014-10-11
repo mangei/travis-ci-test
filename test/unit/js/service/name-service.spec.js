@@ -25,8 +25,8 @@ define(
         it('should pass', function() {
           expect(true).to.equal(true);
         });
-        it('should fail', function() {
-          expect(true).to.equal(false);
+        it('should false be false', function() {
+          expect(false).to.equal(false);
         });
       });
 
