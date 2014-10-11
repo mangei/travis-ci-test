@@ -21,6 +21,15 @@ define(
         });
       });
 
+      describe('fancy truly test', function() {
+        it('should pass', function() {
+          expect(true).to.equal(true);
+        });
+        it('should false be false', function() {
+          expect(false).to.equal(false);
+        });
+      });
+
     });
   }
 );
